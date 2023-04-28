@@ -1,0 +1,37 @@
+1. What are escape characters, and how do you use them?
+answer : To insert characters that are illegal in a string, use an escape character.
+An escape character is a backslash \ followed by the character you want to insert.
+2. What do the escape characters n and t stand for?
+answer : New Line , Tab respectively .
+3. What is the way to include backslash characters in a string?
+answer : \\
+4. The string "How|'s Moving Castle" is a correct value. Why isn't the single quote character in the
+word How|'s not escaped a problem?
+answer : NO. Because | is not a escape character
+5. How do you write a string of newlines if you don't want to use the n character?
+answer : use two print statement one above another
+6. What are the values of the given expressions?
+'Hello, world!'[1]
+answer : e
+'Hello, world!'[0:5]
+answer :Hello
+'Hello, world!'[:5]
+answer : Hello
+'Hello, world!'[3:]
+answer: lo, world!
+7. What are the values of the following expressions?
+'Hello'.upper()
+answer : HELLO
+'Hello'.upper().isupper()
+answer : True
+'Hello'.upper().lower()
+answer : False
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+answer : ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+'-'.join('There can only one.'.split())
+answer : There-can-only-one.
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+answer : ljust(), rjust(), center()
+10. What is the best way to remove whitespace characters from the start or end?
+answer : strip()

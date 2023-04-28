@@ -1,0 +1,39 @@
+1. What exactly is []?
+answer : it is an empty list
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the
+ answer : third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+spam[3]='hello'
+Let's pretend the spam includes the list ['a','b','c','d'] for the next three queries.
+3. What is the value of spam[int(int('3'*2)/11)]?
+answer : c
+4. What is the value of spam[-1]?
+answer : d
+5. What is the value of spam[:2]?
+answer : ['a','b]
+Lets pretend bacon has the list [3.14, 'cat', 11, 'cat', True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+answer : 1
+7. How does bacon.append(99) change the look of the list value in bacon?
+answer : [3.14, 'cat', 11, 'cat', True,99]
+8. How does bacon.remove('cat') change the look of the list in bacon?
+answer : [3.14, 11, 'cat', True]
+9. What are the list concatenation and list replication operators?
+answer :  The operator for list concatenation is +, while the operator for replication is *
+10. What is difference between the list methods append() and insert()?
+answer : append() insert the element at the end of list where insert () add element at a specific index
+11. What are the two methods for removing items from a list?
+answer : 1. remove() 2. pop()
+12. Describe how list values and string values are identical.
+answer : they  both are sequences.
+13. What's the difference between tuples and lists?
+answer : list are mutable while tuple are  immutable
+14. How do you type a tuple value that only contains the integer 42?
+answer : (42,)
+15. How do you get a list value's tuple form? How do you get a tuple value&#39;s list form?
+answer : tuple(list), list(tuple)
+16. Variables that 'contain' list values are not necessarily lists themselves. Instead, what do they
+contain?
+answer : address of the value
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+answer : copy() create reference to original object. If you change copied object - you change the original object.
+deepcopy() creates new object and does real copying of original object to new one.
